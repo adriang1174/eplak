@@ -1,0 +1,460 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-c.eot");
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-c.ttf") format("truetype");
+}
+
+@font-face { /* IE Rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-c.eot");
+}
+
+@font-face { /* non-IE rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-c.ttf") format("truetype");
+}
+
+/* ******* Century Gothic (Regular) ***** */
+
+@font-face { /* IE Rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-c.eot");
+}
+
+@font-face { /* non-IE rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-c.ttf") format("truetype");
+}
+
+/* ******* Century Gothic (Bold) ***** */
+
+@font-face { /* IE Rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-b.eot");
+  font-weight: bold;
+}
+
+@font-face { /* non-IE rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-b.ttf") format("truetype");
+  font-weight: bold;
+}
+
+/* ******* Century Gothic (Italic) ***** */
+
+@font-face { /* IE Rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-i.eot");
+  font-style: italic;
+}
+
+@font-face { /* non-IE rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-i.ttf") format("truetype");
+  font-style: italic;
+}
+
+/* ******* Century Gothic (Bold-Italic) ***** */
+
+@font-face { /* IE rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-bi.eot");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face { /* non-IE rule */
+  font-family: "Century Gothic";
+  src: url("../fonts/gothic-bi.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+
+
+html{
+	background: url(../images/texture.jpg) repeat;
+	background-color: black;
+	background-color: white;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+	padding:0pt;
+	color: #ffffff;
+	font-family: "Century Gothic", Arial, Helvetica;
+	font-size:11px;
+	line-height:17px;
+	
+
+}
+
+
+
+#maincontainer {
+	/*background-color: #ffffff;*/
+	height:auto;
+	margin:20px auto ;
+	padding: 40px 12px;
+	/*padding:0pt 12px;*/
+	position:relative;
+	width:960px;
+}
+
+#cabezal {
+	top: 10px;
+	position:relative;
+	margin-top:-60px;
+	position:relative;
+	background-color: white;
+	height:30px;
+	width:960px;
+}
+
+#logo {
+	top: 10px;
+	position:relative;
+	margin-top:0px;
+	position:relative;
+	/*border: 1px solid #54b200;*/
+	background: url(../images/cabezal2.gif) no-repeat;
+	height:131px;
+	width:960px;
+}
+
+#botonlogo {
+	margin-top:20px;
+	margin-left:10px;
+	background-color:#FFFFFF;
+	/*border: 1px solid #BCBBBB;*/
+	background: url(../images/logo2.png) no-repeat;
+	height:82px;
+	width:348px;
+	float:left;
+}
+
+
+#contenedor {
+	padding-top: 12px;
+	/*border: 1px solid #54b200;*/
+	top: 20px;
+	position:relative;
+    background-color: #FFFFFF;
+	background: url(../images/bg.gif) repeat;
+	height:590px;
+	width: 960px;
+
+}
+#Distribuidor{
+    background-color: #ffffff;
+    border-radius: 6px;
+    float: left;
+    height: 100px;
+    margin-left: -22px;
+    margin-top: 10px;
+    padding-right: 0;
+    width: 293px;
+}
+
+
+#garantias{
+    background-color: #ffffff;
+    border-radius: 6px;
+    float: left;
+    height: 100px;
+    margin-left: -22px;
+	margin-top: 356px;
+    padding-right: 0;
+    width: 293px;
+}
+
+#imagen2{
+    background: rgba(0, 0, 0, 0) url("../images/garantias.jpg") no-repeat scroll 0 0;
+    height: 90px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 284px;
+}
+
+#imagen{
+	height: 82px;
+	background: url(../images/Distribuidor.jpg) no-repeat;
+    width: 242px;
+	margin-left: 24px;
+    margin-top: 10px;
+}
+
+
+@charset "utf-8";
+
+#BotoneraTop{
+    height: 37px;
+    left: 80px;
+    position: relative;
+    top: 90px;
+    width: 879px;
+    z-index: 99999;
+}
+
+#botonera {
+	padding-top: 14px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}	
+
+#botonera a:link {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	color: #ffffff;
+}
+
+
+
+#botonera a:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	color: #ffffff;
+}
+
+#botonera a:hover {
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #fd7d00;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	color: #FFFFFF;
+}
+
+
+#borde {
+    border: 1px solid #fd7d00;
+	background-color: #FFFFFF;
+	width: 250px;
+	height:325px;
+	position:relative;
+	float:left;
+	margin-left:10px;
+	font-family: "Century Gothic", Arial, Helvetica;
+    font-size: 12px;
+	color: #ffffff;
+	background: none repeat scroll 0 0 #fd7d00;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 20px 20px;
+   
+	
+}
+
+
+
+
+
+p{	
+	line-height:10pt;
+	font-size:12px;
+	font-weight:normal;
+	outline:none;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+h1{	
+	font-family: "Century Gothic", Arial, Helvetica;
+	color: #477512;
+    font-size: 25px;
+    padding-bottom: 20px;
+	line-height:10pt;
+	font-weight:normal;
+	outline:none;
+	text-decoration:none;
+}
+
+h2{	
+	line-height:10pt;
+	font-size:14px;
+	font-weight:normal;
+	outline:none;
+	text-decoration:none;
+	line-height: 18px;
+	color: #4c4c4c;
+}
+
+h3{	
+	line-height:10pt;
+	font-size:13px;
+	font-weight:normal;
+	outline:none;
+	text-decoration:none;
+	line-height: 18px;
+	color: #4c4c4c;
+}
+
+h4{	
+	line-height:9pt;
+	font-size:12px;
+	font-weight:normal;
+	outline:none;
+	text-decoration:none;
+	line-height: 23px;
+	color: #4c4c4c;
+}
+
+h5{	
+	font-family: "Century Gothic", Arial, Helvetica;
+	color: #477512;
+    font-size: 15px;
+	font-weight:normal;
+	outline:none;
+	text-decoration:none;
+}
+
+#pie {
+	background: url(../images/bg.gif) repeat;
+	height:70px;
+	position:relative;
+	width:960px;
+	top:30px;
+	border: 1px solid #BCBBBB;
+	background-color: #FFFFFF;
+}
+#politica {
+	top:10px;
+	text-align:center;
+	width:550px;
+	position:relative;
+	left:200px;
+}
+
+a{
+	line-height:10pt;
+	font-size:12px;
+	font-weight:normal;
+	outline:none;
+	text-decoration:none;
+	color:#ffffff;
+}
+-----------------------------------------------------------
+
+	#search-box a:link {color:#408100; text-decoration:none;}
+	#search-box a:visited{color:#408100; text-decoration:none;}
+	#search-box a:hover{color:#5cb900;}
+
+
+	#search-box{
+	height: 70px;
+	font-family: "Century Gothic", Arial, Helvetica;
+	float:right;
+	height: 90px;
+    margin-left: 0;
+    margin-top: 460px;
+    padding-right: 0;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	 margin-right: 4px;
+    width: 250px;
+	}
+
+	#search-box p.contacto-cabecera{
+	  margin-left: 19px;
+	  height: 17px;
+	  width: 214px;
+	  margin-top: 9px;
+	  clear:right;
+	  font-size:21px;
+	  color:#7f7f7f;
+	  
+	}
+	
+
+
+	#search-box p.contacto-cabecera a{
+	  font-size:14px;
+	  color:#ffffff;
+	}
+
+	#search-box p.contacto-cabecera a img{
+		border:none;
+	}
+
+
+
+-----------------------------------------------------------
+
+pf {
+	position:relative;
+    background-image:url(../images/degrade.jpg);
+	background-repeat: repeat-x;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	width:77%;
+	height:870px;
+	background-color: black;
+}
+
+
+
+
+
+
+a img{
+	border:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+	                                     /* COMIENZO DE BOTONERAS */
+										 
+#BotoneraLateral {
+    font-size:12px;
+	width: 200px;
+	height: auto;
+	position:relative;
+	top: 8px;
+	right: -70px;
+}
+
+
+
+
+	
+	
+
+
+
+
+#Contacto {
+	background-repeat: no-repeat;
+	float:left;
+	height:29px;
+	width:96px;
+}
+
+#Contacto:hover {
+	background:url(../images/Contacto_rosa.gif);
+	background-repeat: no-repeat;
+	text-indent:-99999px;
+}
+/* FINAL DE BOTONERAS */
+

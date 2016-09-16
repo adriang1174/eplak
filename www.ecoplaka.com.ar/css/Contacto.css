@@ -1,0 +1,83 @@
+#formulario1{
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 260px;
+	
+}
+
+
+textarea {
+    background: none repeat scroll 0 0 #fafafa;
+    border: medium none;
+    border-radius: 10px;
+    color: #000000;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 15px;
+    height: 68px;
+    margin-bottom: 8px;
+    max-height: 68px;
+    max-width: 90%;
+    min-height: 68px;
+    min-width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    width: 130px;
+}
+input {
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+   background: none repeat scroll 0 0 #fafafa;
+   border: medium none;border-radius: 10px;
+   color: #000000; 
+   height:27px;
+   line-height: 27px;
+   margin-bottom: 8px;
+   padding-left: 5px;
+   width:100%;
+}
+
+mensaje{
+margin-bottom: 10px;
+}
+
+form{
+    height: 220px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 250px;
+}
+
+button {
+    background-image: linear-gradient(#f7ff04, #9b9b00);
+    border: medium none;
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+    margin-right: 21px;
+    margin-top: 22px;
+    padding: 0 0 3px;
+    width: 250px;
+}
+
+button:hover {
+-moz-transition-duration: 1s;
+-o-transition-duration: 1s;
+-webkit-transition-duration: 1s;
+-moz-box-shadow: inset 0 0 3px 3px #888;
+-webkit-box-shadow: inset 0 0 3px 3px #888;
+box-shadow: inset 0 0 3px 3px #888;
+}
+
+#resultado {
+font-weight: bold;
+font-size: 20px;
+color: red;
+}
+
+#Presupuesto{	
+    color: #f7ff04;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+
+}
